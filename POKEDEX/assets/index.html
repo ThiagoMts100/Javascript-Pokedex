@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+
+    <!--Fonte Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+<!--Nosso CSS-->
+
+<link rel="stylesheet" href="css/pokedex.css">
+<link rel="stylesheet" href="css/global.css">
+</head>
+
+
+<img background="imagem/Pokemon-.jpg"></img>
+</body>
+<section class="content">
+       <h1>Pokedex</h1>
+         <ol id= PokemonList class="Pokemons">
+<!-- .... Pokemons here ....-->
+
+      
+
+
+
+         </ol>
+
+         
+        
+          <div class="content-details" id="pokemonsDetailslist">
+             
+          </div>
+        
+         
+
+          <div class="pagination">
+            <button type="button" id="Pokedetails">Details</button>
+            <button type="button" id="loadMoreButton">Proximo</button>
+            
+        </div>
+    
+    
+  
+
+  
+<!--Nosso JS--> 
+    <script src="js/pokemon-model.js"> </script>
+    <script src="js/poke-api.js"> </script>
+    <script src="js/mains.js"></script>
+</body>
+</html>

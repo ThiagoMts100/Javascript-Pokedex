@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: antiquewhite;
+}
+
+.button .Home {
+    text-align: justify;
+    color: blue;
+       
+    }
+
+body {
+    margin: 0;
+    background-image: url(/assets/imagem/Pokemon-.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+   background-size: contain;
+
+    
+}
+
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.button .details {
+    text-align: justify;
+    color: blue;
+}
